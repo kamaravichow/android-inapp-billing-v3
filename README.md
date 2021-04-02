@@ -1,16 +1,9 @@
-# Android In-App Billing v3 Library [![Build Status](https://travis-ci.org/anjlab/android-inapp-billing-v3.svg?branch=master)](https://travis-ci.org/anjlab/android-inapp-billing-v3)  [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.anjlab.android.iab.v3/library/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.anjlab.android.iab.v3/library)
+# Android In-App Billing v3 Library [![Build Status](https://travis-ci.org/anjlab/android-inapp-billing-v3.svg?branch=master)](https://travis-ci.org/anjlab/android-inapp-billing-v3)  [![Jitpack](https://jitpack.io/v/kamaravichow/android-inapp-billing-v3.svg)](https://jitpack.io/#kamaravichow/android-inapp-billing-v3)
+
 
 This is a simple, straight-forward implementation of the Android v3 In-app billing API.
 
 It supports: In-App Product Purchases (both non-consumable and consumable) and Subscriptions.
-
-## Maintainers Wanted
-
-This project is looking for maintainers. 
-
-For now only pull requests of external contributors are being reviewed, accepted and welcomed. No more bug fixes or new features will be implemented by the Anjlab team. 
-
-If you are interesting in giving this project some :heart:, please chime in!
 
 ## Getting Started
 
@@ -21,10 +14,10 @@ If you are interesting in giving this project some :heart:, please chime in!
   - If you guys are using Android Studio and Gradle, add this to you build.gradle file:
 ```groovy
 repositories {
-  mavenCentral()
+   maven { url 'https://jitpack.io' }
 }
 dependencies {
-  implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+     implementation 'com.github.kamaravichow:android-inapp-billing-v3:Tag'
 }
 ```
 
